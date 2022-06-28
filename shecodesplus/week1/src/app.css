@@ -1,0 +1,47 @@
+h1,
+h2 {
+  line-height: 48px;
+  font-size: 34px;
+  margin: 0;
+}
+h1 {
+  color: #272044;
+}
+h2 {
+  color: #8064e9;
+  padding: 0 0 24px;
+}
+img {
+  max-width: 70%;
+  height: 400px;
+}
+section p {
+  font-size: 18px;
+  font-family: "PT Mono", monospace;
+  line-height: 28px;
+}
+button {
+  background-color: #8064e9;
+  color: #fff;
+  text-decoration: none;
+  padding: 16px 24px;
+  font-size: 16px;
+  border: 1px solid #8064e9;
+  border-radius: 25px;
+  box-shadow: 0px 8px 8px 0 rgb(37 39 89 / 8%);
+  transition: all 200ms ease;
+  line-height: 22px;
+}
+span p {
+  font-weight: bold;
+}
+.button:hover {
+  background-color: #5e41a7;
+  cursor: pointer;
+}
+#card {
+  text-align: center;
+  display: block;
+  margin: 120px 0;
+  font-family: "Cerebri Sans", "Helvetica", "Arial", "sans-serif";
+}

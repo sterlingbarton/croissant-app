@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400&display=swap"
+      rel="stylesheet"
+    />
+    <title>Adopt a Pit Bull</title>
+    <style>
+      body {
+        font-family: "Barlow";
+        background: linear-gradient(
+          0deg,
+          rgba(253, 180, 45, 0.9480626947040498) 0%,
+          rgba(255, 218, 173, 1) 65%
+        );
+      }
+      div {
+        text-align: center;
+        background-color: #ffdaad;
+        padding: 10px 20px 5px;
+        margin: 40px auto;
+        max-width: 85%;
+        transition: box-shadow 300ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+        border-radius: 4px;
+        box-shadow: rgb(0 0 0 / 20%) 0px 2px 1px -1px,
+          rgb(0 0 0 / 14%) 0px 1px 1px 0px, rgb(0 0 0 / 12%) 0px 1px 3px 0px;
+      }
+      h1 {
+        color: #0b0b09;
+        font-weight: 600;
+        font-size: 48px;
+      }
+      h2 {
+        font-size: 28px;
+      }
+      img {
+        max-width: 80%;
+        margin-bottom: 25px;
+      }
+      h3 {
+        margin: 5px auto;
+        font-size: 24px;
+      }
+      a {
+        margin: 20px auto;
+        text-decoration: none;
+        color: #0b0b09;
+        line-height: 1.5;
+      }
+      a:hover {
+        text-decoration: underline;
+      }
+      button {
+        background-color: #fea82f;
+        color: #fff;
+        font-size: 26px;
+        border: 1px solid #828282;
+        border-radius: 30px;
+        padding: 10px 30px;
+        transition: all 200ms ease-in-out;
+      }
+      button:hover {
+        background-color: rgba(254, 168, 47, 0.7);
+        border: 1px solid rgba(254, 168, 47, 0.7);
+        box-shadow: 5px 5px 10px #828282;
+        cursor: pointer;
+      }
+      span {
+        font-weight: 500;
+      }
+      footer {
+        margin: 15px auto;
+        font-size: 18px;
+      }
+      .info {
+        line-height: 1.5;
+        margin: 0px auto;
+        text-align: left;
+        padding-left: 10px;
+        color: #0b0b09;
+        font-size: 17px;
+      }
+      .adopt {
+        margin: 10px auto 15px;
+      }
+    </style>
+  </head>
+  <body>
+    <div>
+      <h1>I Love Dogs!🐶</h1>
+      <h2>But Pit Bulls are the best😄</h2>
+      <img
+        src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/032/181/original/iStock-1143880146-min-960x540.jpg?1650305697"
+        alt="Smiling Pit Bull"
+      />
+      <section>
+        <h3>About</h3>
+        <p class="info">
+          <strong>Pit bull</strong> is a term used in the United States for a
+          type of dog descended from bulldogs and terriers, while in other
+          countries such as the United Kingdom the term is used as an
+          abbreviation of the American Pit Bull Terrier breed. The term was
+          first used in 1927. Within the United States the pit bull is usually
+          considered a heterogeneous grouping that includes the breeds American
+          Pit Bull Terrier, American Staffordshire Terrier, American Bully,
+          Staffordshire Bull Terrier and occasionally the American Bulldog,
+          along with any crossbred dog that shares certain physical
+          characteristics with these breeds, such as a square-shaped head or
+          bulky body type. In other countries including Britain, the
+          Staffordshire Bull Terrier is not considered a pit bull.
+        </p>
+      </section>
+      <br />
+      <section>
+        <h3>Reputation</h3>
+        <p class="info">
+          Pit bull-type dogs have a controversial reputation as pets both in the
+          United States and internationally, due to the fact that they are
+          extensively used for dogfighting, a practice that has continued
+          despite being outlawed. Proponents of the breed and advocates of
+          regulation have engaged in a nature-versus-nurture debate over whether
+          apparent aggressive tendencies in pit bulls may be appropriately
+          attributed to owners' care for the dog or inherent qualities. Numerous
+          advocacy organizations have sprung up in defense of the pit bull. A
+          pro-pit bull lobby exists that spends millions of dollars a year
+          promoting pit bulls as family pets, funding pro-pit bull researchers,
+          and opposing laws that regulate their ownership.
+        </p>
+      </section>
+      <br />
+      <section>
+        <h3>Personality</h3>
+        <p class="info">
+          Pit Bulls are smart, confident, good-natured companions and their
+          courage is proverbial. A responsibly bred, well-socialized pit is a
+          loyal, trustworthy friend to the end. Pit Bull owners describe their
+          dogs as keenly aware of their surroundings, game for anything, and
+          lovable 'personality dogs' around the house. They make excellent
+          family companions and have always been noted for their love of
+          children. This breed likes mental and physical challenges. They are
+          highly trainable because of their high level of intelligence and
+          willingness to work. Because some exhibit a level of dog aggression
+          and because of its powerful physique, this breed requires an owner who
+          will carefully socialize and obedience train the dog. A pit's natural
+          agility makes it one of the most capable canine climbers so good
+          fencing is a must. The Pit Bull is not the best choice for a guard dog
+          since they are extremely friendly, even with strangers.
+        </p>
+      </section>
+      <br />
+      <a href="https://www.pitbullinfo.org/" target="_blank">Learn More Here</a>
+      <hr />
+      <p class="adopt"><em>Adopt, don't shop!</em></p>
+      <button class="userInfo">Find a Shelter</button>
+      <br />
+      <footer>Coded By: <span>Sterling Barton</span></footer>
+    </div>
+    <script>
+      function userInfo() {
+        //   more efficient to use while loop, but for the sake of homework
+        let city = prompt("What city do you live in?");
+        if (city === "") {
+          alert("Please enter a valid response.");
+          prompt("What city do you live in?");
+        } else if (city === null) {
+          return;
+        }
+        let firstName = prompt("What is your first name?");
+        if (firstName === "") {
+          alert("Please enter a valid response.");
+          prompt("What is your first name?");
+        } else if (firstName === null) {
+          return;
+        }
+        let lastName = prompt("What is your last name?");
+        if (lastName === "") {
+          alert("Please enter a valid response.");
+          prompt("What is your last name?");
+        } else if (lastName === null) {
+          return;
+        }
+        let email = prompt("What is your email?");
+        if (email === "") {
+          alert("Please enter a valid response.");
+          prompt("What is your email?");
+        } else if (email === null) {
+          return;
+        }
+        alert(
+          `Thankyou ${firstName} ${lastName}! We'll be in touch via ${email}🐶`
+        );
+      }
+
+      let shelterBtn = document.querySelector(".userInfo");
+      shelterBtn.addEventListener("click", userInfo);
+    </script>
+  </body>
+</html>
